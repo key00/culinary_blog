@@ -1,5 +1,37 @@
-body {
-  background-color: rgba(252, 244, 235, 0.644) !important;
+.main-body {
+  height: 100vh;
+}
+
+/* nav styles start */
+nav {
+  background: #867e5e;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+}
+/* nav styles end */
+
+/* footer styles start */
+footer {
+  background: #faf5e1;
+  padding: 30px;
+}
+
+footer .row a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer .row li {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* footer styles end */
+
+/* login page styles start */
+.login-body {
+  background-color: rgba(252, 244, 235, 0.644);
 }
 .login {
   width: 70%;
@@ -20,3 +52,4 @@ body {
   padding: 30px 100px !important;
   margin: 0 auto;
 }
+/* login page styles end */
